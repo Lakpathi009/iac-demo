@@ -9,5 +9,5 @@ resource "aws_s3_bucket" "b" {
 resource "aws_s3_bucket" "object1" {
   bucket = "naik01"
   key    = "Python_Hardway.pdf"
-  source = "F:\\python\\python\\wifi_Hack\\Python_Hardway.pdf"
+  #source = "F:\\python\\python\\wifi_Hack\\Python_Hardway.pdf"
 }
