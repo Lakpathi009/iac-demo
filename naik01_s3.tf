@@ -1,6 +1,5 @@
 resource "aws_s3_bucket" "b" {
-    bucket  = "smrithi_009"
-    acl     = "private"
+    bucket  = "naik01"
 
     tags    = {
      environment = "Dev" 
