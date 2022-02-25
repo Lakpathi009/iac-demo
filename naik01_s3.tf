@@ -5,3 +5,9 @@ resource "aws_s3_bucket" "b" {
      environment = "Dev" 
     }
 }
+#uploading a file into bucket 
+resource "aws_s3_bucket" "object1" {
+  bucket = "smrithi_009"
+  key    = "Python_Hardway.pdf"
+  source = "F:\\python\\python\\wifi_Hack\\Python_Hardway.pdf"
+}
